@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 55px;
+            background-color: rgba(105, 167, 125, 0.795);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: dotted;
+            color: bisque;
+            font-size: 1rem;
+        }
+        nav ul li a:hover{
+            text-decoration: underline;
+            color: black;
+            font-size: 1.05rem;
+        }
+        main hr{
+            border: 0;
+            background: white;
+            height: 1.3px;
+            margin: 40px 04px;
+        }
+        .left{
+            font-size: 2rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content:space-around;
+            margin: 25px 0;
+        }
+        .firstSection > div{
+        width: 25%;
+        }
+        .leftSection{
+            font-size: 2.4rem;
+            margin: 80px 0;
+        }
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(0, 5, 3); 
+            color: white; 
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+       .rightSection img{
+            width: 125%;
+            margin-top: 80px;
+        }
+        .ocean{
+            color: rgb(0, 255, 179);
+        }
+        #element{
+            color: rgb(0, 255, 179);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+        }
+        .secondSection h1{
+            font-size: 1.7rem;
+        }
+        .secondSection .box{
+            background: white;
+            width: 54vw;
+            height: 2px;
+            margin: 40px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1.1px;
+            background-color: white;
+            margin: 0 90px;
+        }
+        .image-top{
+            width: 25px;
+            position: relative;
+            top: -35px;
+            left: -10px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-description{
+            position: relative;
+            top: 87px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color: rgb(10, 44, 34);
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            pad: 12px 0;
+        }
+body{
+    background-color: rgb(1, 22, 18);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arpit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hey peeps! My name is <span class="ocean">Arpit</span> 
+                <div>I'm passionate about things like..</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" onclick="location.href='Landing Page/files/sample_resume.pdf' ">Download Resume</button>
+                    <button class="btn" onclick="location.href='https://www.linkedin.com/in/arpit-srivastava-5a9708290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'" >LinkedIn Profile</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="pictuers/wd.png" alt=""> 
+            </div>            
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I do and did so far...</span>
+            <h1>Experiences</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="pictuers/worker.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer (2022-till date)
+                    </div>
+                    <div class="vertical-description">
+                        In the Begining it was challenging.I'm still in a learning phase and experiencing
+                        new things about websites. I think the working of websites are quite an interesting thing to know for someone.
+                        That's what makes me more motivated to learn and create more about websites.                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pictuers/worker.png" alt="">
+                    <div class="vertical-title">
+                        Programmer (2022-till date)
+                    </div>
+                    <div class="vertical-description">
+                        Learning has always been my strength. I am always eager to learn more and more about 
+                        technology and how it works.Programming Languages play an important role in exploring the technical world.
+                        I've Learnt many languages in my college like Java,Python,C,C++,HTML,CSS,Java Script,MongoDB, MySQL and willing to know many more.
+                    </div>
+                </div>                
+                <div class="vertical">
+                    <img class="image-top" src="worker.png" alt="">
+                    <div class="vertical-title">
+                        College(2021-2025)
+                    </div>
+                    <div class="vertical-description">
+                        I'm currently pursuing B.Tech degree with specialisation in CSE from United College Of Engineering and Research.
+                        It is among the best known colleges in our city and is known well for it's good placements and well educated professors and students.
+                    </div>
+                </div>                
+                <div class="vertical">
+                    <img class="image-top" src="worker.png" alt="">
+                    <div class="vertical-title">
+                        More about me..
+                    </div>
+                    <div class="vertical-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti reprehenderit quia ipsum architecto tempora, 
+                        enim adipisci odit, iusto autem labore tenetur natus quo beatae reiciendis excepturi suscipit itaque corporis similique!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Arpit Developer's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                    <li>Helpline</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>LeetCode</li>
+                    <li>LinkedIn</li>
+                    <li>GitHub</li>
+                    <li>HackerRank</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>YouTube</li>
+                    <li>WhatsApp</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.arpitsportfolio.com|All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Designs', 'Graphic Designs','Video Editing','Free Lancing','Languages like','Java','Python','C','C++','C#','And many more..'],
+        typeSpeed: 50,
+      });
+    </script>
+  
+</body>
+
+</html>
